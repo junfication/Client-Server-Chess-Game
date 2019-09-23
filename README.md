@@ -1,5 +1,7 @@
 # Client-Server-Chess-Game
-A multithreaded Server where different can play amongst each other
+A multithreaded Server where different can play amongst each other  
+Note that legal moves are not implemented and players can 'cheat' as there is no checking
+of legal moves
 
 Dependencies : Visual Studio 2015
 
