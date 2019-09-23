@@ -25,20 +25,20 @@ the message to be sent to the server.
 
 The commands for the client are  
 __Universal commands can be used in any state__  
-list user	 (to see the list of user)  
-Exit 	         (to exit the server)  
+_list user_	 (to see the list of user)  
+_exit_ 	         (to exit the server)  
 
 __Available state commands__  
-play user 	(to play with other users replace user with the clients username)  
+_play user_ 	(to play with other users replace user with the clients username)  
 
 __Waiting state commands__  
-accept	        (to accept the game)  
+_accept_	        (to accept the game)  
 any other input will be treated as decline  
 
 __Ingame state commands__  
-move            (start end move a piece at start pos to end pos, start and end pos alphabet needs to be CAPS)  
-quit	    	(quit the game)  
-print board 	(print the current game board)  
+_move_          (start end move a piece at start pos to end pos, start and end pos alphabet needs to be CAPS)  
+_quit_	       	(quit the game)  
+_print board_ 	(print the current game board)  
 
 In any case of the server were to disconnect, the client will prompt the  
 user to reenter a ip address and port number to reconnect again.
